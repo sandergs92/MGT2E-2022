@@ -6,18 +6,9 @@ data_combat = [
         "description": "Each combatant makes a DEX or INT check to determine the order of actions in combat.",
         "reference": "Referenced Manual, pg. 73",
         "bullets": [
-            "Travellers can delay their action until later in the turn.",
-            "The initiative check indicates the first opportunity to act."
-        ]
-    },
-    {
-        "title": "Opposing Forces",
-        "icon": "two-swords-crossed",
-        "subtitle": "Encounter balance",
-        "description": "The referee may adjust DEX or INT checks for opposing forces to balance the encounter.",
-        "reference": "Referenced Manual, pg. 73",
-        "bullets": [
-            "Adjustments are made to balance the game and provide challenge."
+            "Travellers can delay their action until later in the turn. The initiative check indicates the first opportunity to act.",
+			"The referee may make just one DEX or INT check for all of the forces under their control, using the highest DEX or INT score of the characters they control.",
+			"One character per side may make a Tactics check at the start of a combat. The Effect of this check is then applied to the Initiative of everyone on the same side."
         ]
     },
     {
@@ -31,34 +22,15 @@ data_combat = [
         ]
     },
     {
-        "title": "Tactics",
-        "icon": "chess-knight",
-        "subtitle": "Strategic advantage",
-        "description": "Tactics checks can affect the initiative of all allies.",
-        "reference": "Referenced Manual, pg. 73",
-        "bullets": [
-            "Successful tactics check provides initiative bonuses."
-        ]
-    },
-    {
-        "title": "Maps",
-        "icon": "map",
-        "subtitle": "Battlefield layout",
-        "description": "Maps or sketches can be used to represent combat areas and are not always necessary.",
-        "reference": "Referenced Manual, pg. 73",
-        "bullets": [
-            "Travellers use a scale of 1.5 metres per map square or hex for personal combat."
-        ]
-    },
-    {
         "title": "The Combat Round",
         "icon": "swords-clash",
         "subtitle": "Sequence of actions",
-        "description": "A combat round is a 6-second time frame in which each traveller can perform actions.",
+        "description": "A combat round is a 10-second time frame in which each traveller can perform actions. In every round a Traveller can",
         "reference": "Referenced Manual, pg. 73",
         "bullets": [
-            "Each traveller may perform a Minor Action and a Significant Action.",
-            "Combatants act in initiative order."
+            "Perform a Minor Action and a Significant Action.",
+			"Or Perform up to three Minor Actions.",
+			"And they may perform any number of Reactions or Free Actions"
         ]
     },
     {
@@ -93,7 +65,7 @@ data_combat = [
         "description": "Travellers may perform any number of Free Actions, with some limitations by the referee.",
         "reference": "Referenced Manual, pg. 78",
         "bullets": [
-            "Free Actions are minor tasks that can be performed alongside other actions."
+            "This includes shouting a warning or pushing a button, for example."
         ]
     },
     {
@@ -103,17 +75,24 @@ data_combat = [
         "description": "In response to certain triggers, Travellers may perform Reactions.",
         "reference": "Referenced Manual, pg. 78",
         "bullets": [
-            "Can be used to respond to attacks or other significant events."
+            "Traveller can perform an unlimited amount of Reactions in every combat round.",
+			"Every time a Traveller performs a Reaction, they will suffer DM-1 on their next set of actions"
         ]
     },
     {
         "title": "Significant Actions",
         "icon": "starburst",
         "subtitle": "Major actions in combat",
-        "description": "A Traveller may perform one Significant Action each combat round, like attacking or using a special ability.",
+        "description": "A Traveller may perform one Significant Action each combat round. A Traveller may make a skill check or do something else as a Significant Action when it requires their full attention, concentration, complicated physical or mental actions, or a combination thereof. Including following:",
         "reference": "Referenced Manual, pg. 78",
         "bullets": [
-            "Significant Actions are crucial and can turn the tide of combat."
+            "Applying first aid to a wounded comrade.",
+			"Attack an enemy with either a melee or ranged weapon",
+			"Pass orders, commands and suggestions to comrades fighting on the same side",
+			"Trying to bypass a security system to gain access to a bunker.",
+			"Using a psionic talent.",
+			"Get into a crew position in a vehicle.",
+			"Calling in an ortillery strike."
         ]
     },
     {
@@ -126,7 +105,8 @@ data_combat = [
             "Aiming: Spend a Minor Action to gain a DM bonus on a subsequent attack.",
             "Changing Stance: Stand, crouch, or go prone as a Minor Action.",
             "Drawing/Reloading: Ready combat equipment or reload as a Minor Action.",
-            "Movement: Move a certain distance based on your Movement score."
+            "Movement: Move a certain distance based on your Movement score.",
+			"Miscellaneous: May make a skill check or do something else if it does not require their full attention, concentration, complicated physical or mental actions."
         ]
     },
     {
