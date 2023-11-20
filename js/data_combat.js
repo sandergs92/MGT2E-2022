@@ -1,4 +1,4 @@
-data_movement = [
+data_combat = [
     {
         title: "Move",
         icon: "run",

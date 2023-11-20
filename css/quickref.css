@@ -1,6 +1,41 @@
 /* ------------------------------------------------------------------------- */
 /* Sections */
 /* ------------------------------------------------------------------------- */
+#searchContainer {
+    padding-top: 30px; 
+    display: flex; 
+    align-items: center; 
+    gap: 5px;
+}
+
+#searchBar {
+    flex-grow: 1;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: 2px solid #4A4A4A;
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    width: calc(100% - 20px);
+    box-sizing: border-box; 
+    background-color: #F0F0F0; 
+    color: #333; 
+}
+
+#clearFilter {
+    margin-top: -20px;
+    padding: 8px 10px;
+    margin-left: 5px; 
+    border: 1px solid #4A4A4A; 
+    background-color: #F0F0F0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+#searchBar:focus {
+    outline: none;
+    border-color: #6A6A6A;
+}
+
 .section-container {
     border: 8px solid;
     border-radius: 8px;
@@ -109,7 +144,7 @@
 
 .item-text-container {
     flex: 1;
-    padding-right: 4px;
+    padding-right: 100px;
     font-size: inherit;
     height: 100%;
 }
@@ -118,11 +153,11 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
-#section-movement, #section-movement .item-icon {
+#section-combat, #section-combat .item-icon {
     background-color: maroon;
     border-color: maroon;
 }
-#section-movement .text {
+#section-combat .text {
     color: maroon;
 }
 

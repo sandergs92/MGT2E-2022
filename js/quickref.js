@@ -1,3 +1,19 @@
+function filterItems(query) {
+    const items = document.querySelectorAll('.item'); // Assuming each item has a class 'item'
+    items.forEach(item => {
+        const title = item.querySelector('.item-title').textContent.toLowerCase();
+        if (title.includes(query.toLowerCase())) {
+            item.style.display = ''; // Show the item
+        } else {
+            item.style.display = 'none'; // Hide the item
+        }
+    });
+
+    if (query === '') {
+        items.forEach(item => item.style.display = ''); // Show all items if query is empty
+    }
+}
+
 function add_quickref_item(parent, data, type) {
     var icon = data.icon || "perspective-dice-six-faces-one";
     var subtitle = data.subtitle || "";
@@ -57,15 +73,16 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
-    fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_combat, "basic-combat", "Combat");
+
+    document.getElementById('searchBar').addEventListener('input', function(e) {
+        filterItems(e.target.value);
+    });
+
+    document.getElementById('clearFilter').addEventListener('click', function() {
+        document.getElementById('searchBar').value = ''; // Clear the search bar
+        filterItems(''); // Call the filterItems function to show all items
+    });
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
