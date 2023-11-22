@@ -1,7 +1,7 @@
 data_combat = [
     {
         "title": "Initiative",
-        "icon": "lightning-bolt",
+        "icon": "sands-of-time",
         "subtitle": "Determine turn order",
         "description": "Each combatant makes a DEX or INT check to determine the order of actions in combat.",
         "reference": "Referenced Manual, pg. 73",
@@ -13,7 +13,7 @@ data_combat = [
     },
     {
         "title": "Ambushes",
-        "icon": "hooded-figure",
+        "icon": "dodge",
         "subtitle": "Surprise attack",
         "description": "With high-powered weaponry, ambushes can provide a significant advantage in combat.",
         "reference": "Referenced Manual, pg. 73",
@@ -34,133 +34,13 @@ data_combat = [
         ]
     },
     {
-        "title": "Attack",
-        "icon": "crossed-swords",
-        "subtitle": "Primary combat action",
-        "description": "Use a Significant Action to make a melee or ranged attack using appropriate skills and attributes.",
-        "reference": "Referenced Manual, pg. 78",
-        "bullets": [
-            "Melee Attack: 2D + Melee (specialty) + STR or DEX DM",
-            "Ranged Attack: 2D + Gun Combat (specialty) + DEX DM",
-            "Declare the attack, choose a Reaction, and if the skill check is 8+, the attack succeeds.",
-            "For ranged attacks, certain modifiers apply."
-        ]
-    },
-    {
-        "title": "Leadership",
-        "icon": "crown",
-        "subtitle": "Command and influence",
-        "description": "Use a Significant Action to make a Leadership check, influencing the initiative and actions of allies.",
-        "reference": "Referenced Manual, pg. 78",
-        "bullets": [
-            "Make a Leadership check (INT, EDU or SOC) to give bonuses or penalties to your side.",
-            "The Effect of this check can add to the initiative and skill checks of Travellers on the same side.",
-            "Bad leadership can result in penalties to the team."
-        ]
-    },
-    {
         "title": "Free Actions",
-        "icon": "lightning-bolt",
-        "subtitle": "Supplementary actions",
-        "description": "Travellers may perform any number of Free Actions, with some limitations by the referee.",
-        "reference": "Referenced Manual, pg. 78",
-        "bullets": [
-            "This includes shouting a warning or pushing a button, for example."
-        ]
-    },
-    {
-        "title": "Reactions",
-        "icon": "shield-reflect",
-        "subtitle": "Responsive actions",
-        "description": "In response to certain triggers, Travellers may perform Reactions.",
-        "reference": "Referenced Manual, pg. 78",
-        "bullets": [
-            "Traveller can perform an unlimited amount of Reactions in every combat round.",
-			"Every time a Traveller performs a Reaction, they will suffer DM-1 on their next set of actions"
-        ]
-    },
-    {
-        "title": "Significant Actions",
-        "icon": "starburst",
-        "subtitle": "Major actions in combat",
-        "description": "A Traveller may perform one Significant Action each combat round. A Traveller may make a skill check or do something else as a Significant Action when it requires their full attention, concentration, complicated physical or mental actions, or a combination thereof. Including following:",
-        "reference": "Referenced Manual, pg. 78",
-        "bullets": [
-            "Applying first aid to a wounded comrade.",
-			"Attack an enemy with either a melee or ranged weapon",
-			"Pass orders, commands and suggestions to comrades fighting on the same side",
-			"Trying to bypass a security system to gain access to a bunker.",
-			"Using a psionic talent.",
-			"Get into a crew position in a vehicle.",
-			"Calling in an ortillery strike."
-        ]
-    },
-    {
-        "title": "Minor Actions",
-        "icon": "hourglass-split",
-        "subtitle": "Lesser actions during combat",
-        "description": "A single Minor Action can be performed in a combat round, with the potential to perform up to three if foregoing the Significant Action.",
-        "reference": "Referenced Manual, pg. 75",
-        "bullets": [
-            "Aiming: Spend a Minor Action to gain a DM bonus on a subsequent attack.",
-            "Changing Stance: Stand, crouch, or go prone as a Minor Action.",
-            "Drawing/Reloading: Ready combat equipment or reload as a Minor Action.",
-            "Movement: Move a certain distance based on your Movement score.",
-			"Miscellaneous: May make a skill check or do something else if it does not require their full attention, concentration, complicated physical or mental actions."
-        ]
-    },
-    {
-        "title": "Aiming",
-        "icon": "target-arrow",
-        "subtitle": "Preparing an attack",
-        "description": "Use a Minor Action for aiming to increase the chance of hitting the target on the next attack.",
-        "reference": "Referenced Manual, pg. 75",
-        "bullets": [
-            "Spend a Minor Action to aim, gaining a DM+1 bonus on the next attack.",
-            "Can stack up to DM+6 if consecutive Minor Actions are spent aiming at the same target."
-        ]
-    },
-    {
-        "title": "Changing Stance",
-        "icon": "person-bending",
-        "subtitle": "Adjusting combat posture",
-        "description": "Alter your combat stance as a Minor Action, which can affect your profile and movement.",
-        "reference": "Referenced Manual, pg. 75",
-        "bullets": [
-            "Choose to stand, crouch, or lie prone.",
-            "Affects visibility and mobility."
-        ]
-    },
-    {
-        "title": "Drawing/Reloading",
-        "icon": "arrow-up-right-circle",
-        "subtitle": "Accessing or preparing equipment",
-        "description": "Prepare or ready weapons and equipment as a Minor Action.",
-        "reference": "Referenced Manual, pg. 75",
-        "bullets": [
-            "Draw a weapon or reload as part of a Minor Action.",
-            "If the action requires more time, this will be noted in the weapon's description."
-        ]
-    },
-    {
-        "title": "Movement",
-        "icon": "person-running",
-        "subtitle": "Relocating in combat",
-        "description": "Move up to a certain distance based on your Movement score as a Minor Action.",
-        "reference": "Referenced Manual, pg. 75",
-        "bullets": [
-            "The distance moved is based on the character's Movement score.",
-            "Some conditions like being prone can affect the Movement speed."
-        ]
-    },
-    {
-        "title": "Free Actions",
-        "icon": "bolt-lightning",
+        "icon": "gift-of-knowledge",
         "subtitle": "Instantaneous actions",
         "description": "Actions so quick they do not require even a Minor Action, like vocalizing a warning.",
         "reference": "Referenced Manual, pg. 75",
         "bullets": [
-            "Can be performed in addition to other actions within reason as determined by the referee."
+            "This includes shouting a warning or pushing a button, for example."
         ]
     },
     {
@@ -175,56 +55,13 @@ data_combat = [
         ]
     },
     {
-        "title": "Reactions",
-        "icon": "shield",
-        "subtitle": "Defensive maneuvers",
-        "description": "Travellers can perform unlimited Reactions, such as dodging or parrying, in each combat round with potential penalties for subsequent actions.",
-        "reference": "Referenced Manual, pg. 76",
-        "bullets": [
-            "Dodging: Inflict a penalty on the attacker's roll equal to the higher of DEX DM or Athletics.",
-            "Diving for Cover: Take a DM-2 on the attack roll from attackers but lose the ability to perform other actions.",
-            "Parrying: A melee attack can be parried as a Reaction, applying a negative DM to the attacker's roll."
-        ]
-    },
-    {
-        "title": "Dodging",
-        "icon": "arrow-dodge",
-        "subtitle": "Evading attacks",
-        "description": "In response to being attacked, a Traveller can dodge, affecting the attacker’s roll and the Traveller’s next actions.",
-        "reference": "Referenced Manual, pg. 76",
-        "bullets": [
-            "Every dodge during a combat round incurs a cumulative DM-1 penalty on the Traveller's next set of actions.",
-            "Both ranged and melee attacks can be dodged."
-        ]
-    },
-    {
-        "title": "Diving for Cover",
-        "icon": "person-falling",
-        "subtitle": "Seeking protection",
-        "description": "A Traveller can dive for cover to reduce the chance of being hit, at the expense of other actions.",
-        "reference": "Referenced Manual, pg. 76",
-        "bullets": [
-            "Inflicts a DM-2 penalty on attackers for that round but the Traveller cannot perform other actions.",
-            "If no cover is nearby, the Traveller incurs DM-1 on any attack rolls made against them."
-        ]
-    },
-    {
-        "title": "Parrying",
-        "icon": "swords-clashing",
-        "subtitle": "Counteracting melee attacks",
-        "description": "A Traveller may attempt to parry a melee attack as a Reaction, applying a negative DM to the attacker's roll.",
-        "reference": "Referenced Manual, pg. 76",
-        "bullets": [
-            "Used to counter melee attacks and can affect the attacker’s roll."
-        ]
-    },
-    {
         "title": "Melee Attacks",
-        "icon": "crossed-swords",
+        "icon": "boxing-glove-surprise",
         "subtitle": "Close-quarters combat",
         "description": "Specific rules apply when Travellers are within two metres of an enemy, affecting the types of attacks that can be made.",
         "reference": "Referenced Manual, pg. 76",
         "bullets": [
+            "Successful melee attacks add STR DM to the damage rolled plus the Effect of the attack.",
             "Only single-handed ranged weapons and melee attacks are possible in close quarters.",
             "Larger weapons can be used as clubs.",
             "Moving while in close combat allows an immediate free attack by the enemy."
@@ -249,7 +86,7 @@ data_combat = [
     },
     {
         "title": "Damage",
-        "icon": "explosion",
+        "icon": "falling-ovoid",
         "subtitle": "Weapon inflicted harm",
         "description": "Details the damage mechanics for weapons in combat, including how damage is applied and its effects on character stats.",
         "reference": "Referenced Manual, pg. 77",
@@ -261,18 +98,8 @@ data_combat = [
         ]
     },
     {
-        "title": "Melee Attacks",
-        "icon": "fist-raised",
-        "subtitle": "Hand-to-hand combat",
-        "description": "Defines the additional damage mechanics for successful melee attacks in combat.",
-        "reference": "Referenced Manual, pg. 77",
-        "bullets": [
-            "Successful melee attacks add STR DM to the damage rolled plus the Effect of the attack."
-        ]
-    },
-    {
         "title": "Armour",
-        "icon": "shield-alt",
+        "icon": "layered-armor",
         "subtitle": "Protective gear",
         "description": "Describes how armor reduces damage and the special trait of Armour Piercing (AP) weapons.",
         "reference": "Referenced Manual, pg. 77",
@@ -302,7 +129,7 @@ data_combat = [
     },    
     {
         "title": "Hiding",
-        "icon": "eye-slash",
+        "icon": "hidden",
         "subtitle": "Concealment in combat",
         "description": "Details the benefits of hiding from enemies and the conditions under which it can be effective.",
         "reference": "Referenced Manual, pg. 77",
@@ -313,7 +140,7 @@ data_combat = [
     },
     {
         "title": "Destructive Weapons",
-        "icon": "explosion",
+        "icon": "explosive-materials",
         "subtitle": "Highly damaging arsenal",
         "description": "Some weapons are incredibly powerful, capable of destroying small vehicles in a single shot and are classified as Destructive.",
         "reference": "Referenced Manual, pg. 78",
@@ -323,21 +150,8 @@ data_combat = [
         ]
     },
     {
-        "title": "Grappling",
-        "icon": "hand-rock",
-        "subtitle": "Close-quarters struggle",
-        "description": "Travellers may engage in grappling to overpower their opponents through a series of maneuvers.",
-        "reference": "Referenced Manual, pg. 78",
-        "bullets": [
-            "To grapple, an opposed Melee (unarmed) check with the target is made.",
-            "Options during a grapple include disarming, damaging, or moving an opponent.",
-            "Travellers can also drag their opponent up to three metres.",
-            "Grappling precludes performing any Significant or Minor Action except opposed Melee (unarmed) checks."
-        ]
-    },
-    {
         "title": "Dual Weapons",
-        "icon": "guns",
+        "icon": "crossed-pistols",
         "subtitle": "Wielding two weapons",
         "description": "In certain situations, Travellers may be permitted to fight with a weapon in each hand.",
         "reference": "Referenced Manual, pg. 78",

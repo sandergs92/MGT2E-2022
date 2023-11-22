@@ -74,6 +74,9 @@ function fill_section(data, parentname, type) {
 
 function init() {
     fill_section(data_combat, "basic-combat", "Combat");
+    fill_section(data_sign, "basic-sign", "Significant actions");
+    fill_section(data_minor, "basic-minor", "Minor actions");
+    fill_section(data_reaction, "basic-reaction", "Reactions");
 
     document.getElementById('searchBar').addEventListener('input', function(e) {
         filterItems(e.target.value);

@@ -161,19 +161,19 @@
     color: maroon;
 }
 
-#section-action, #section-action .item-icon {
+#section-sign, #section-sign .item-icon {
     background-color: black;
     border-color: black;
 }
-#section-action .text {
+#section-sign .text {
     color: black;
 }
 
-#section-bonus-action, #section-bonus-action .item-icon {
+#section-minor, #section-minor .item-icon {
     background-color: indigo;
     border-color: indigo;
 }
-#section-bonus-action .text {
+#section-minor .text {
     color: indigo;
 }
 
